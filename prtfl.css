@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e3e3;
+    color: #333;
+    animation: fadeIn 2s ease-out;
+    z-index: 2;
+  }
+  .header {
+    background-color: #788e89;
+    color: rgb(249, 232, 232);
+    padding: 30px;
+    text-align: center;
+  }
+  .header h1 {
+    margin: 0;
+    color: #f39c12;
+  }
+  .header h1 span {
+    color: white;
+  }
+  .contact {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .container {
+    display: flex;
+    padding: 20px;
+  }
+  .left, .right {
+    width: 50%;
+    padding: 20px;
+  }
+  .profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  .section-title {
+    color: #e67e22;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  img{
+    box-shadow:offset-x offset-y blur-radius spread-radius color(srgb red green blue)
+  }
+  
+  
+  .skill{
+    margin-bottom:20px;
+  }
+  .progress{
+    width: 100%;
+    background-color: #f0e3e3;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20;
+  }
+  .progress-bar{
+    height: 20px;
+    background-color: #e67e22;
+    transition: 0.4s;
+  }
+  .progress-value{
+    margin-top: 5px;
+  }
